@@ -1,0 +1,18 @@
+{
+    "keen" : {
+        "addons" : [
+            {
+                "name" : "keen:ip_to_geo",
+                "input" : {
+                    "ip" : "ip_address"
+                },
+                "output" : "ip_geo_info"
+            }
+        ]
+    },
+    "ip_address" : "${keen.ip}",
+    "user_agent" : "${keen.user_agent}",
+    "hit": 1,
+    "post_id": 1234,
+    "post": "your post title"
+}
